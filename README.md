@@ -9,6 +9,7 @@ This repository contains supplementary files for the Master's thesis titled "Usa
 - **Readability Evaluation**: Raw results from readability assessments.
 - **Heuristic Evaluation**: Results for all applications in the Heuristic Evaluation.
 - **Code**: Scripts for scraping app data and counting errors in accessibility reports.
+- **MARS and Heuristic Evaluation templates**: Templates for evaluating the apps using the MARS framework and Jacob Nielsen's ten usability heuristics.
 
 ## Files
 
@@ -20,6 +21,8 @@ This repository contains supplementary files for the Master's thesis titled "Usa
 - `google_play_scraper.js`: Python script for scraping apps from the Google Play Store.
 - `readability_evaluation.xlsx`: Raw data from the readability evaluations.
 - `reports_phrase_counter.py`: Python script for counting errors in accessibility reports.
+- `Heuristic_Evaluation_Workbook_1_Fillable.pdf`: Framework containing the ten usability heuristics concluded by Jacob Nielsen.
+- `MARS_template.pdf`: Template to evaluate the applications.
 
 ## Research Context
 
