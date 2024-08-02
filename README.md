@@ -33,10 +33,10 @@ This repository provides all necessary data and scripts to replicate the study's
 If you use this repository in your research, please cite the thesis as follows:
 ```Bibtex
 @mastersthesis{svensson2024thesis,
-title={Usability and Accessibility Evaluation in Stroke mHealth Apps},
-author={Pontus Svensson},
-year={2024},
-school={Karlstad University}
+  title={Usability and Accessibility Evaluation in Stroke mHealth Apps},
+  author={Pontus Svensson},
+  year={2024},
+  school={Karlstad University}
 }
 ```
 
