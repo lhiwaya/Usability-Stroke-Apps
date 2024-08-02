@@ -1,6 +1,6 @@
-# Master's Thesis Data Repository
+# Research Data Repository
 
-This repository contains supplementary files for the Master's thesis titled "Usability and Accessibility Evaluation in Stroke mHealth Apps."
+This repository contains supplementary files for the research study "On the Usability of mHealth Stroke Apps."
 
 ## Contents
 
@@ -16,7 +16,7 @@ This repository contains supplementary files for the Master's thesis titled "Usa
 - `Heuristic Evaluation`: The first half of all apps evaluated in the heuristic evaluation.
 - `Heuristic_Evaluation_2_of_2`: The second half of all apps evaluated in the heuristic evaluation.
 - `MARS_evaluator_1.xlsx`: Raw data from the MARS evaluations from evaluator 1.
-- `MARS_evaluator_2_and_3.xlsx`: Raw data from the MARS evaluations from evaluator 2 and 3.
+- `MARS_evaluator_2_and_3.xlsx`: Raw data from the MARS evaluations from evaluators 2 and 3.
 - `apps_accessibility_tests.xlsx`: Raw data from the accessibility evaluations.
 - `google_play_scraper.js`: Python script for scraping apps from the Google Play Store.
 - `readability_evaluation.xlsx`: Raw data from the readability evaluations.
@@ -26,20 +26,20 @@ This repository contains supplementary files for the Master's thesis titled "Usa
 
 ## Research Context
 
-This repository accompanies the thesis "Usability and Accessibility Evaluation in Stroke mHealth Apps" and provides all necessary data and scripts to replicate the study's findings.
+This repository provides all necessary data and scripts to replicate the study's findings.
 
 ## Cite this work
 
 If you use this repository in your research, please cite the thesis as follows:
-
+```Bibtex
 @mastersthesis{svensson2024thesis,
 title={Usability and Accessibility Evaluation in Stroke mHealth Apps},
 author={Pontus Svensson},
 year={2024},
 school={Karlstad University}
 }
-
+```
 
 ## Contact
 
-For any questions or further information, please contact the author at: [noss.nevs@hotmail.com](mailto:noss.nevs@hotmail.com)
+For any questions or further information, please contact the authors at: [noss.nevs@hotmail.com](mailto:noss.nevs@hotmail.com) and [leonardo.iwaya@kau.se](mailto:leonardo.iwaya@kau.se)
