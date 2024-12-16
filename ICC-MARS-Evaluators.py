@@ -13,6 +13,7 @@
 # **ICC1k**, **ICC2k**, **ICC3K** reflect the means of :math:`k` raters.
 
 import pandas as pd
+import pingouin as pg
 
 #create DataFrame
 df_engagement = pd.DataFrame({'app': ['Constant Therapy', 'RecoverBrain Language Therapy', 'AntiCoagEvaluator', 'Rehab Coach: CVA Stroke Rehabi', 'My Aphasia Coach', 'Stroke Riskometer', 'Conversation Therapy Lite', 'ViaTherapy', 'IV Stroke Thrombolysis', 'Hope After Stroke', 'Press calc', 'MyTRCare - Stroke Recovery', 'Stroke Recovery Predictor', 'Number Therapy Lite', 'Hand exercises stroke recovery', 'Stroke Management',
@@ -29,8 +30,6 @@ df_engagement = pd.DataFrame({'app': ['Constant Therapy', 'RecoverBrain Language
 df_engagement.head()
 print("\nEngagement - First five rows of DataFrame")
 print(df_engagement.head())
-
-import pingouin as pg
 
 icc_engagement = pg.intraclass_corr(data=df_engagement, targets='app', raters='evaluator', ratings='mean_rating')
 
@@ -54,7 +53,6 @@ df_functionality.head()
 print("\nFunctionality - First five rows of DataFrame")
 print(df_functionality.head())
 
-import pingouin as pg
 
 icc_functionality = pg.intraclass_corr(data=df_functionality, targets='app', raters='evaluator', ratings='mean_rating')
 
@@ -78,7 +76,6 @@ df_aesthetic.head()
 print("\nAesthetic - First five rows of DataFrame")
 print(df_aesthetic.head())
 
-import pingouin as pg
 
 icc_aesthetic = pg.intraclass_corr(data=df_aesthetic, targets='app', raters='evaluator', ratings='mean_rating')
 
@@ -102,7 +99,6 @@ df_information.head()
 print("\nInformation - First five rows of DataFrame")
 print(df_information.head())
 
-import pingouin as pg
 
 icc_information = pg.intraclass_corr(data=df_information, targets='app', raters='evaluator', ratings='mean_rating')
 
@@ -126,7 +122,6 @@ df_subjective.head()
 print("\nSubjective - First five rows of DataFrame")
 print(df_subjective.head())
 
-import pingouin as pg
 
 icc_subjective = pg.intraclass_corr(data=df_subjective, targets='app', raters='evaluator', ratings='mean_rating')
 
