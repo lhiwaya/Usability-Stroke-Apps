@@ -23,6 +23,7 @@ This repository contains supplementary files for the research study "On the Usab
 - `reports_phrase_counter.py`: Python script for counting errors in accessibility reports.
 - `Heuristic_Evaluation_Workbook_1_Fillable.pdf`: Framework containing the ten usability heuristics concluded by Jacob Nielsen.
 - `MARS_template.pdf`: Template to evaluate the applications.
+- `ICC-MARS-Evaluators.py`: Python script used to calculate the intraclass correlation (ICC) values for the evaluators' MARS scores.
 
 ## Research Context
 
@@ -32,11 +33,16 @@ This repository provides all necessary data and scripts to replicate the study's
 
 If you use this repository in your research, please cite the thesis as follows:
 ```Bibtex
-@mastersthesis{svensson2024thesis,
-  title={Usability and Accessibility Evaluation in Stroke mHealth Apps},
-  author={Pontus Svensson},
-  year={2024},
-  school={Karlstad University}
+@article{SVENSSON2025101616,
+  author = {Pontus Svensson and Shuanglan Lin and Leonardo Horn Iwaya},
+  title = {Usability and Accessibility in mHealth Stroke Apps: An Empirical Assessment},
+  journal = {Informatics in Medicine Unlocked},
+  pages = {101616},
+  year = {2025},
+  issn = {2352-9148},
+  doi = {https://doi.org/10.1016/j.imu.2025.101616},
+  url = {https://www.sciencedirect.com/science/article/pii/S2352914825000048},
+  keywords = {mHealth, mobile health, mobile app, usability, accessibility, stroke, empirical study},
 }
 ```
 
