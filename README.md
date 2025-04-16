@@ -31,7 +31,7 @@ This repository provides all necessary data and scripts to replicate the study's
 
 ## Cite this work
 
-If you use this repository in your research, please cite the thesis as follows:
+If you use this repository in your research, please cite the article as follows:
 ```Bibtex
 @article{SVENSSON2025101616,
   author = {Pontus Svensson and Shuanglan Lin and Leonardo Horn Iwaya},
