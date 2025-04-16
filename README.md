@@ -1,6 +1,6 @@
 # Research Data Repository
 
-This repository contains supplementary files for the research study "On the Usability of mHealth Stroke Apps."
+This repository contains supplementary files for the research study "Usability and Accessibility in mHealth Stroke Apps: An Empirical Assessment".
 
 ## Contents
 
